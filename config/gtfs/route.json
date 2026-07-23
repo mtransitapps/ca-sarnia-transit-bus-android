@@ -131,7 +131,7 @@
         {
             "route_short_name": "C",
             "route_long_name": "COMMUNITY BUS",
-            "color": "FFFF00"
+            "color": "BBD000"
         }
     ],
     "direction_splitter_enabled": true,
