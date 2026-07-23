@@ -1,7 +1,38 @@
 {
     "default_route_id_enabled": true,
     "use_route_short_name_for_route_id": true,
+    "use_route_long_name_for_route_short_name": true,
+    "route_short_name_cleaners": [
+        {
+            "regex": "^(\\d+)(\\s+(\\d+))?.*$",
+            "replacement": "$1$2",
+            "comment": "Keep only the first(s) number(s)"
+        },
+        {
+            "regex": "COMMUNITY BUS",
+            "ignore_case": true,
+            "is_word": true,
+            "replacement": "C"
+        }
+    ],
+    "route_short_name_to_route_id_configs": [
+        {
+            "route_short_name": "9 1",
+            "route_id": 901
+        },
+        {
+            "route_short_name": "9 2",
+            "route_id": 902
+        }
+    ],
     "default_route_long_name_enabled": true,
+    "route_long_name_cleaners": [
+        {
+            "regex": "^(\\d+)\\s*",
+            "comment": "Remove 1st number(s)"
+        }
+    ],
+    "direction_splitter_enabled": true,
     "direction_finder_enabled": true,
     "trip_headsign_remove_via": true,
     "trip_headsign_cleaners": [],
