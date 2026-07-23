@@ -134,7 +134,6 @@
             "color": "BBD000"
         }
     ],
-    "direction_splitter_enabled": true,
     "direction_finder_enabled": true,
     "trip_headsign_remove_via": true,
     "trip_headsign_cleaners": [],
