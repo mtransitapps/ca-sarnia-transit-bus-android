@@ -1,16 +1,16 @@
-1,'1','Confederation','',1638,3
-2,'2','Devine','',1602,3
-4,'4','Maxwell','',1604,3
-7,'7','Cathcart','',1630,3
-10,'10','Vidal','',1633,3
-12,'12','Point Edward','',1635,3
-14,'14','Cardiff','',1636,3
-15,'15','Bright''s Grove','',1637,3
-16,'16','Indian East','',1669,3
-19,'19','Retail Connector','',1698,3
-20,'20','Michigan Rapids','',1725,3
-66,'66','London Road Express','',1665,3
-93,'93','Exmouth','',1727,3
-901,'9 1','1 Exmouth','',1722,3
-902,'9 2','2 Exmouth','',1723,3
-30000,'C','Community Bus','',1693,3
+1,'1','Confederation','FF0303',1638,3
+2,'2','Devine','27437B',1602,3
+4,'4','Maxwell','007133',1604,3
+7,'7','Cathcart','FF7D36',1630,3
+10,'10','Vidal','172100',1633,3
+12,'12','Point Edward','5E610F',1635,3
+14,'14','Cardiff','4B37AD',1636,3
+15,'15','Bright''s Grove','A27DFF',1637,3
+16,'16','Indian East','DBC523',1669,3
+19,'19','Retail Connector','7D4B25',1698,3
+20,'20','Michigan Rapids','29A8D6',1725,3
+66,'66','London Road Express','00E6A9',1665,3
+901,'9 1','1 Exmouth','172100',1722,3
+902,'9 2','2 Exmouth','172100',1723,3
+903,'9 3','3 Exmouth','172100',1727,3
+30000,'C','Community Bus','FFFF00',1693,3

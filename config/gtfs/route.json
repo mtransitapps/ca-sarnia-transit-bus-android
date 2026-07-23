@@ -4,6 +4,10 @@
     "use_route_long_name_for_route_short_name": true,
     "route_short_name_cleaners": [
         {
+            "regex": "^93 ",
+            "replacement": "9 3 "
+        },
+        {
             "regex": "^(\\d+)(\\s+(\\d+))?.*$",
             "replacement": "$1$2",
             "comment": "Keep only the first(s) number(s)"
@@ -23,13 +27,111 @@
         {
             "route_short_name": "9 2",
             "route_id": 902
+        },
+        {
+            "route_short_name": "9 3",
+            "route_id": 903
         }
     ],
     "default_route_long_name_enabled": true,
     "route_long_name_cleaners": [
         {
+            "regex": "^93 ",
+            "replacement": "9 3 "
+        },
+        {
             "regex": "^(\\d+)\\s*",
             "comment": "Remove 1st number(s)"
+        }
+    ],
+    "route_colors_ignored": [
+        "000000"
+    ],
+    "route_colors": [
+        {
+            "route_short_name": "1",
+            "route_long_name": "1 CONFEDERATION",
+            "color": "FF0303"
+        },
+        {
+            "route_short_name": "2",
+            "route_long_name": "2 DEVINE",
+            "color": "27437B"
+        },
+        {
+            "route_short_name": "4",
+            "route_long_name": "4 MAXWELL",
+            "color": "007133"
+        },
+        {
+            "route_short_name": "7",
+            "route_long_name": "7 CATHCART",
+            "color": "FF7D36"
+        },
+        {
+            "route_short_name": "9",
+            "route_long_name": "9 EXMOUTH",
+            "color": "172100"
+        },
+        {
+            "route_short_name": "9 1",
+            "route_long_name": "9 1 EXMOUTH",
+            "color": "172100"
+        },
+        {
+            "route_short_name": "9 2",
+            "route_long_name": "9 2 EXMOUTH",
+            "color": "172100"
+        },
+        {
+            "route_short_name": "9 3",
+            "route_long_name": "93 EXMOUTH",
+            "color": "172100"
+        },
+        {
+            "route_short_name": "10",
+            "route_long_name": "10 VIDAL",
+            "color": "172100"
+        },
+        {
+            "route_short_name": "12",
+            "route_long_name": "12 POINT EDWARD",
+            "color": "5E610F"
+        },
+        {
+            "route_short_name": "14",
+            "route_long_name": "14 CARDIFF",
+            "color": "4b37AD"
+        },
+        {
+            "route_short_name": "15",
+            "route_long_name": "15 BRIGHT'S GROVE",
+            "color": "A27DFF"
+        },
+        {
+            "route_short_name": "16",
+            "route_long_name": "16 INDIAN EAST",
+            "color": "DBC523"
+        },
+        {
+            "route_short_name": "19",
+            "route_long_name": "19 RETAIL CONNECTOR",
+            "color": "7D4B25"
+        },
+        {
+            "route_short_name": "20",
+            "route_long_name": "20 MICHIGAN RAPIDS",
+            "color": "29A8D6"
+        },
+        {
+            "route_short_name": "66",
+            "route_long_name": "66 LONDON ROAD EXPRESS",
+            "color": "00E6A9"
+        },
+        {
+            "route_short_name": "C",
+            "route_long_name": "COMMUNITY BUS",
+            "color": "FFFF00"
         }
     ],
     "direction_splitter_enabled": true,
