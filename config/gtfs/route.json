@@ -4,10 +4,6 @@
     "use_route_long_name_for_route_short_name": true,
     "route_short_name_cleaners": [
         {
-            "regex": "^93 ",
-            "replacement": "9 3 "
-        },
-        {
             "regex": "^(\\d+)(\\s+(\\d+))?.*$",
             "replacement": "$1$2",
             "comment": "Keep only the first(s) number(s)"
@@ -35,10 +31,6 @@
     ],
     "default_route_long_name_enabled": true,
     "route_long_name_cleaners": [
-        {
-            "regex": "^93 ",
-            "replacement": "9 3 "
-        },
         {
             "regex": "^(\\d+)\\s*",
             "comment": "Remove 1st number(s)"
@@ -76,17 +68,22 @@
         {
             "route_short_name": "9 1",
             "route_long_name": "9 1 EXMOUTH",
-            "color": "E633A9"
+            "color": "D444A5"
         },
         {
             "route_short_name": "9 2",
             "route_long_name": "9 2 EXMOUTH",
-            "color": "E633A9"
+            "color": "D444A5"
         },
         {
             "route_short_name": "9 3",
+            "route_long_name": "9 3 EXMOUTH",
+            "color": "D444A5"
+        },
+        {
+            "route_short_name": "93",
             "route_long_name": "93 EXMOUTH",
-            "color": "E633A9"
+            "color": "E566BB"
         },
         {
             "route_short_name": "10",
