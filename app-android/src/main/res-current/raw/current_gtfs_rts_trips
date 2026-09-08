@@ -1,5 +1,6 @@
 1019,0,'Confederation/Devine',1
 2019,0,'Devine',2
+3019,0,'Confederation Wellington',3
 4019,0,'Wellington Maxwell',4
 7019,0,'Rosedale',7
 10019,0,'South Vidal',10
@@ -10,7 +11,8 @@
 19019,0,'Retail Connector',19
 20019,0,'Michigan Rapids',20
 66019,0,'London Rd Express',66
+6809,0,'Northend Express',68
+93019,0,'Clearwater',93
 901019,0,'Downtown',901
 902019,0,'Downtown',902
-903019,0,'Clearwater',903
 30000019,0,'Community Bus',30000
